@@ -1,3 +1,46 @@
+body {
+  display: grid;
+  background-color: #EDEFEC;
+  grid-template-columns: 30% 1fr 1fr 1fr 30%;
+}
+
+.guidebook-header {
+  font-family: "Montserrat", sans serif;
+  grid-column: 2 / 5;
+  text-align: center;
+  color: #565A5B;
+}
+
 h1 {
-  color: salmon;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Montserrat", sans serif;
+  font-size: 15px;
+  font-weight: 500px;
+  display: inline-block;
+  /*color: white;*/
+}
+
+.guidebook-photos {
+  grid-column: 2 / 5;
+  width:1000px;
+}
+
+img {
+  display: inline-block;
+  width: 200px;
+  height: 200px
+}
+
+.guidebook-text {
+  grid-column: 2 / 5;
+  width: 1000px;
 }
